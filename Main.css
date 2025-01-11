@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: bold;
+    color: white;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #614e4e;
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+ul{
+    display: flex;
+    list-style:  none;
+}
+ul li a{
+    padding: 0px 30px;
+    margin: 0px 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 60px;
+}
+.logo{
+    padding: 0px 30px;
+    margin: 0px 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+
+}
+.signup:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 150px;
+    flex-wrap: wrap;
+}
+.mrc{
+    max-width: 500px;
+    height: auto;
+
+}
+main p{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 31.5px;
+    position: relative;
+    right: 80px;
+}
+main h1 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    right: 200px;
+}
+.contentleft{
+    flex: 1;
+}
+.contentmid{
+    flex: 2;
+}
+.contentright{
+    flex: 1;
+}
+.btn{
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #2c2c2c;
+    color: white;
+    border: 2px solid white;
+}
